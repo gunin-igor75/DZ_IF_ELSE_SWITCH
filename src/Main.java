@@ -10,9 +10,9 @@ public class Main {
     public static void task1() {
         int clientOS = 1;
         if (clientOS == 1) {
-            System.out.println("Установите версию приложения для Android по ссылке");
+            System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ Android РїРѕ СЃСЃС‹Р»РєРµ");
         } else {
-            System.out.println("Установите версию приложения для iOS по ссылкее");
+            System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ iOS РїРѕ СЃСЃС‹Р»РєРµРµ");
         }
     }
 
@@ -21,15 +21,15 @@ public class Main {
         int clientDeviceYear = 2014;
         if (clientDeviceYear < 2015) {
             if (clientOS == 1) {
-                System.out.println("Установите облегченную версию приложения для Android по ссылке");
+                System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РѕР±Р»РµРіС‡РµРЅРЅСѓСЋ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ Android РїРѕ СЃСЃС‹Р»РєРµ");
             } else {
-                System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+                System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РѕР±Р»РµРіС‡РµРЅРЅСѓСЋ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ iOS РїРѕ СЃСЃС‹Р»РєРµ");
             }
         } else {
             if (clientOS == 1) {
-                System.out.println("Установите версию приложения для Android по ссылке");
+                System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ Android РїРѕ СЃСЃС‹Р»РєРµ");
             } else {
-                System.out.println("Установите версию приложения для iOS по ссылке");
+                System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ iOS РїРѕ СЃСЃС‹Р»РєРµ");
             }
         }
     }
@@ -39,9 +39,9 @@ public class Main {
         boolean condition1 = (year % 4 == 0 && year % 100 != 0);
         boolean condition2 = (year % 400 == 0);
         if (condition1 || condition2) {
-            System.out.println(year + " год является високосным»");
+            System.out.println(year + " РіРѕРґ СЏРІР»СЏРµС‚СЃСЏ РІРёСЃРѕРєРѕСЃРЅС‹РјВ»");
         } else {
-            System.out.println(year + " год не является високосным»");
+            System.out.println(year + " РіРѕРґ РЅРµ СЏРІР»СЏРµС‚СЃСЏ РІРёСЃРѕРєРѕСЃРЅС‹РјВ»");
         }
     }
 
@@ -49,13 +49,13 @@ public class Main {
         int deliveryDistance = 95;
         int deliveryPeriod = 1;
         if (deliveryDistance < 20) {
-            System.out.println("Потребуется дней: " + deliveryPeriod);
+            System.out.println("РџРѕС‚СЂРµР±СѓРµС‚СЃСЏ РґРЅРµР№: " + deliveryPeriod);
         } else if (deliveryDistance >= 20 && deliveryDistance < 60) {
             deliveryPeriod += 1;
-            System.out.println("Потребуется дней: " + deliveryPeriod);
+            System.out.println("РџРѕС‚СЂРµР±СѓРµС‚СЃСЏ РґРЅРµР№: " + deliveryPeriod);
         } else if (deliveryDistance >= 60 && deliveryDistance < 100) {
             deliveryPeriod += 2;
-            System.out.println("Потребуется дней: " + deliveryPeriod);
+            System.out.println("РџРѕС‚СЂРµР±СѓРµС‚СЃСЏ РґРЅРµР№: " + deliveryPeriod);
         }
     }
 
@@ -65,25 +65,25 @@ public class Main {
             case 1:
             case 2:
             case 12:
-                System.out.println("Зима");
+                System.out.println("Р—РёРјР°");
                 break;
             case 3:
             case 4:
             case 5:
-                System.out.println("Весна");
+                System.out.println("Р’РµСЃРЅР°");
                 break;
             case 6:
             case 7:
             case 8:
-                System.out.println("Лето");
+                System.out.println("Р›РµС‚Рѕ");
                 break;
             case 9:
             case 10:
             case 11:
-                System.out.println("Осень");
+                System.out.println("РћСЃРµРЅСЊ");
                 break;
             default:
-                System.out.println("Такого месяца нет");
+                System.out.println("РўР°РєРѕРіРѕ РјРµСЃСЏС†Р° РЅРµС‚");
                 break;
         }
     }
